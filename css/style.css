@@ -275,6 +275,12 @@ header > .container > .sns {
   width: 60px;
 }
 
+@media screen and (max-width: 640px) {
+  header > .container > .sns {
+    left: 75%;
+  }
+}
+
 header > .container > .sns > a {
   display: block;
   width: 28px;

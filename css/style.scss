@@ -247,7 +247,9 @@ header {
 			top: 50%;
 			margin: -14px 0 0 -30px;
 			width: 60px;
-
+			@media #{$mobile} {
+				left: 75%;
+			}
 			> a {
 				display: block;
 				width: 28px;
